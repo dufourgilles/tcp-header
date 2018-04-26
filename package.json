@@ -1,0 +1,11 @@
+{
+  "name": "tcp-header",
+  "version": "1.0.0",
+  "description": "TCP Packet Reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gilles Dufour (dufour.gilles@gmail.com)",
+  "license": "ISC"
+}
