@@ -15,8 +15,8 @@ tcph.seq === 1234557;           // tcp sequence number
 tcph.ack === 7654321;           // tcp ack number
 tcph.headerLength === 20;       // tcp header length
 tcph.flags === { SYN: 0, ACK: 1, FIN: 0, RST: 0, PSH: 1, URG: 0 };               // tcp flags
-tcph.window === 64;             // time-to-live
-tcph.crc === 12134;             // payload protocol
+tcph.window === 64;             // tcp window size (not taken into account scale factor)
+tcph.crc === 12134;             // tcp crc - not vierfied
 tcp.length === 3                // tcp data length
 tcp.options === <Buffer 01 01 08 0a 04 61 42 35 c4 40 ed 87> // tcp options buffer
 tcp.data === <Buffer fe 00 0e 00? //tcp data buffer
